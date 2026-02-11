@@ -26,3 +26,7 @@
 # print(n + type(n))
 
 
+name = "nabeel"
+print(name)
+
+
