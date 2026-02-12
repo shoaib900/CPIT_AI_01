@@ -25,8 +25,87 @@
 # n = "45"
 # print(n + type(n))
 
+# name = "nabeel"
+# print(name)
 
-name = "nabeel"
-print(name)
+# number = input("enter your number: ")
+# print(number, type(number))
+# number = int(number)
+# print(number, type(number))
+
+# number = int(input("Enter your number: "))
+# print(number, type(number))
+
+# number = float(input("Enter your number: "))
+# print(number, type(number))
+
+# number = 44
+# if number=="44":
+#     print("yes you are right")
+# else:
+#     print("Oh! no you are wrong")
+
+# marks = 99
+# if marks == 90:
+#     print("yes you are right")
+# elif marks == 99:
+#     print("hurrey! you got it")
+# else:
+#     print("Oh! no you are wrong")
+
+
+# marks = 980
+# if marks > 40:
+#     print("failed...")
+# elif marks > 100:
+#     print("your marks are not acceptable")
+# elif marks > 90:
+#     print("pass ho gaya: A+ Grade")
+# elif marks > 80:
+#     print("B+ Grade")
+# elif marks > 70:
+#     print("C+ Grade")
+# elif marks > 60:
+#     print("D+ Grade")
+# elif marks > 50:
+#     print("E+ Grade")
+# else:
+#     print("failed")
+
+# marks = 990
+# if marks > 90 and marks < 101:
+#     print("A+ Grade pass")
+# else:
+#     print("Failed...")
+
+# a = 18
+# e = 12
+# h= 5.6
+
+# if a > 17 and e > 11:
+#     print("pass")
+# elif e > 11 and h > 5.6:
+#     print("Pass")
+# elif h > 5.6 and a > 17:
+#     print("Pass")
+# else:
+#     print("Failed")
+
+# if (a > 17 and e > 11) or (e > 11 and h > 5.6) or (h > 5.6 and a > 17):
+#     print("Pass")
+# else:
+#     print("Failed")
+
+num = 4
+
+match(num):
+    case 0:
+        print("value 0")
+    case 1:
+        print("value 1")
+    case 12:
+        print("yes value is 12")
+    case _:
+        print("Oh no")
 
 
