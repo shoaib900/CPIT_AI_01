@@ -96,16 +96,51 @@
 # else:
 #     print("Failed")
 
-num = 4
+# num = 4
 
-match(num):
-    case 0:
-        print("value 0")
-    case 1:
-        print("value 1")
-    case 12:
-        print("yes value is 12")
-    case _:
-        print("Oh no")
+# match(num):
+#     case 0:
+#         print("value 0")
+#     case 1:
+#         print("value 1")
+#     case 12:
+#         print("yes value is 12")
+#     case _:
+#         print("Oh no")
+
+# i= 0
+# while i < 10:
+#     print(i, " Pakistan")
+#     i+=1
+
+# for i in range(2,10, 2):
+#     print(i)
+
+a = 5
+b = 10
+# print(a,b)
+# [a,b] = [b,a]
+# print(a,b)
+
+# a =a + b  # 5 + 10 = 15;
+# b =a - b  # 15 - 10 = 5
+# a =a - b  # 15 - 5 = 10
+
+# a =a ^ b  # 5 + 10 = 15;
+# b =a ^ b  # 15 - 10 = 5
+# a =a ^ b  # 15 - 5 = 10
+
+# temp = a 
+# a = b 
+# b = temp
+# print(a,b)
+
+for i in range(0,50):
+    # print(f" {i} hello world")
+    print( str(i) + " hello world")
+    if i == 39:
+        continue
+
+
 
 
