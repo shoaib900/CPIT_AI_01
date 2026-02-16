@@ -135,11 +135,74 @@ b = 10
 # b = temp
 # print(a,b)
 
-for i in range(0,50):
-    # print(f" {i} hello world")
-    print( str(i) + " hello world")
-    if i == 39:
-        continue
+# for i in range(0,50):
+#     print(f" {i} hello world")
+#     print( str(i) + " hello world")
+#     if i == 39:
+#         continue
+
+
+# name1 = "nadeem"
+# name2 = name1
+# name2 = "Aslam"
+# print(name1,name2) 
+
+# name1 = ["atif"]
+# name2 = name1 
+# name2[0] = "aslam"
+
+# print(name1,name2)
+
+# names = ["nadeem","faraz","saad"] 
+# print(names)
+
+# na = ["nadeem","Faraz","saad"]
+# names = list(("nadeem","faraz","saad"))
+# print(names) 
+
+# cities = ["Faisalabad","Lahore","Jaranwala"]
+# cities[0] = "kalam"
+# cities.append("malam jabba")
+# cities.append("kalam")
+# cities.pop()
+# cities2 = ["Karachi","Bahawalpur"]
+# cities.extend(["Faisalabad","Karachi"])
+# cities.extend(cities2)
+# print(cities)
+# print(cities[2:3])
+# print(cities[0] + " " +  cities[2])
+# print(f" {cities[0]} {cities[2]}")
+# print(cities[0],cities[2])
+# print(cities[0:5])
+# print(cities[0:])
+# print(cities[0::2])
+
+# cities = ["Faisalabad","Lahore","Jaranwala"]
+# cities.insert(1,"Awagat")
+# cities.insert(1,"chak no 144 GB")
+# cities.insert(2,("jrw","mianwali"))
+# cities.clear()
+# del cities
+# del cities[0]
+# cities.remove("Lahore")
+# city = cities.index("Lahore")
+# print(cities , city)
+# print(len(cities))
+
+cities = ["Faisalabad","Lahore","Jaranwala"]
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
