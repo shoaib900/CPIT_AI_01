@@ -189,7 +189,137 @@ b = 10
 # print(cities , city)
 # print(len(cities))
 
-cities = ["Faisalabad","Lahore","Jaranwala"]
+# cities = ["Faisalabad","Lahore","Jaranwala"]
+
+# print(cities)
+
+# for i in cities:
+#     print(i)
+
+# for i,val in enumerate(cities, start=1):
+#     print(i, val)
+
+# i =0
+# while i < len(cities):
+#     print(cities[i])
+#     i = i + 1
+
+
+cities = ["faisalabad","lahore","jaranwala"]
+# print(cities)
+
+# city = input("enter your city").lower() 
+# print(city)
+# print(city.upper() )
+
+# for i in cities:
+#     city = "JaraNwala".lower()
+#     if city in i:
+#         print("yes")
+
+# name = "NAdeem"
+# print(name.lower())
+
+# for i in cities:
+#     if "Jaranwala" in i:
+#         print("yes")
+#     else:
+#         print("no")
+#         break
+
+# cities = ["lahore","faisalabad","karachi","jaranwala","gujrat"]
+# city = input("enter your city : ").lower() 
+
+# for i in cities:
+#     if city in i:
+#         print("yes")
+#         break
+#     else:
+#         print("no")
+#         break
+
+# names = ["adnan","adam","tufail","atif"]
+# names2 = [x for x in names]
+# print(names, names2)
+
+# names2 = [i for i in names if "adam" in i]
+# print( names2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# names = ["adnan","adam","tufail","atif"]
+
+# find = "yes" if "adam" in names else "no"
+# print(find)
+
+
+
+
+
+# names = ["adnan","adam","tufail","atif"]
+
+# find = "yes" if x == "adama" else "no"  for x in names
+# print(find)
+
+# tup = ("atif","amjad","ali")
+# tup = ("atif",)
+# print(tup, type(tup))
+
+tup = ("Nadeem","afzal","ali","ajaz")
+# print(len(tup))
+# print(tup[0::2])
+# tup2 = ("faraz",)
+# tup += tup2  # unfamilia method
+# tup = tup + tup2 # familiar method
+# print(tup)
+
+# y = list(tup)
+# y[-1] = "hani"
+# print(y)
+# tup = tuple(y)
+# print("tuple : ",tup)
+
+# y.append("jahanzaib")
+# print(y)
+# tup = tuple(y)
+# print(tup)
+
+
+# tup = (1,2,3,4,"hello",True)
+# print(tup)
+# for i in tup:
+#     print(i, type(i))
+
+# for i,j in enumerate(tup, start= 90):
+#     print(i,j)
+
+# del tup
+# print(tup)
+
+# tup = (1,2,3,4,"hello",True)
+
+# i =0
+# while i < len(tup):
+#     print(tup[i])
+#     i = i+1
+
+
+
+
+
+
 
 
 
